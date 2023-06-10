@@ -1,4 +1,4 @@
-package ru.netology.javaqa.java6;
+package ru.netology.services;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
