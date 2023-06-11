@@ -7,10 +7,11 @@ public class CalcSalary {
         for (int i = 0; i < 12; i++) {
             if (money >= threshold) {
                 counter++;
-                money = money - expenses;
-                money = money / 3;
+                money += expenses;
+                money /= 3;
+                money /= 2;
             } else {
-                money = money + income - expenses;
+                money += (income - expenses);
             }
 
         }
