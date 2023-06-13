@@ -9,7 +9,6 @@ public class CalcSalary {
                 counter++;
                 money += expenses;
                 money /= 3;
-                money /= 2;
             } else {
                 money += (income - expenses);
             }
